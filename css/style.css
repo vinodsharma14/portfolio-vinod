@@ -1,0 +1,1183 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*------------------------- section 1  ,nav bar .welcome text ,photo------------------------*/
+
+.first{
+    background-color: white;
+    height:41rem;
+}
+.header{
+    background-color:#DEE1E5;
+    height:4.5rem;
+    width: 100%;
+    box-shadow: 1px 1px 3px grey;
+}
+
+/* ---------------------------------logo of my name---------------------------------- */
+
+.logo{
+    float: left;
+    padding-top:0.5rem;
+    padding-left:3rem;
+    
+}
+.logo h1 {
+    font-size:2.8rem;
+    color: blue;
+    font-family: Tahoma;
+}
+
+/* ------------------------------------End of logo-----------------------------------------*/
+
+/*--------------------------------------- nav bar--------------------------------- */
+.nav-bar{
+    
+    float: right;
+    padding-top:0.5rem;
+    padding-right: 0.9rem;
+}
+.nav-bar nav ul li {
+    display: inline-block;
+    padding: 1rem;
+    text-align: right;
+}
+li .hom a{
+    color: blue;
+}
+.nav-bar nav ul li a {
+    text-decoration: none;
+    color: #0e2431;
+    font-size: 0.9rem;
+    font-family:Arial Black;
+}
+.nav-bar nav ul li a:hover{
+    color: blue;
+    border-bottom:2.8px solid blue;
+    border-radius:0.2rem;
+    
+}
+.btn{
+    font-size: 1.9rem;
+    cursor: pointer;
+    display: none;
+    margin-right: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+/*--------------------------------------end of nav bar ------------------------------------- */
+
+/* ----------content of (hi there i am vinod sharma), about btn, social miadia link --------*/
+
+.content{
+    float: left;
+    padding:5rem;
+}
+.content p {
+    padding: 2rem 0.4rem;
+    font-size:3.9rem;
+    font-family: Microsoft JhengHei;
+}
+.content ul {
+    margin-top:1rem;
+    margin-left: 1rem;
+}
+.content ul li {
+    height: 1.9rem;
+    width: 6rem;
+    border: 1rem solid blue;
+    box-shadow: 1px 2px 14px rgb(125, 125, 252);
+    border-radius:2rem ;
+    display: inline;
+    text-shadow: 9rem green;
+}
+.content ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+.social-links{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.social-links a{
+    font-size: 1rem;
+    margin:0.2rem;
+    border: 0.9rem solid black;
+    background-color: black;
+    border-radius: 5rem;
+    color:#038aa6;
+    
+    box-shadow: 1px 1px 8px black;
+}
+.social-links a i {
+    font-size:1.3rem;
+}
+/* ---------------------------------end of content-------------------------------- */
+
+/*-------------------------- iamge of my carton photo------------------------------- */
+
+.image{
+    float: right;
+    margin: 7rem;
+}
+.image img {
+   height:18rem;
+   width:20rem;
+}
+
+/* -------------------------------------end of carton image-------------------------------- */
+
+/* ------------------------------------section 1 end-----------------------------------------*/
+
+/* -------------------second section in this section about me page is desian-------------- */
+
+.second{
+    background-color:#DEE1E5;
+    padding-bottom: 2rem;
+}
+.about-us {
+    text-align: center;
+    padding: 1rem 0;
+    font-size:2.5rem;
+
+}
+.about-us h1{
+    margin-top: 1rem;
+    font-family: Microsoft Sans Serif;
+}
+
+.para{
+    width: 50rem;
+    height: 30rem;
+    margin-left:17rem;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 5px gray;
+    background-color: #C8DEF3;
+}
+
+.para p1{
+    font-size:1.9rem;
+    margin-top: 8rem;
+}
+
+.para p2{
+    font-size: 1rem;
+    font-family: Lucida Handwriting;
+}
+.para p3{
+    font-size: 1.3rem;
+    
+    margin:3rem ;
+}
+
+/* -------------------------------------end----------------------------------------------- */
+
+/* ---------------------------------end of second page------------------------------------ */
+
+/*--------------------------section 3 is on based on eduaction page------------------------ */
+
+.third{
+    background-color: #f9eeea;
+    
+    padding-bottom: 3rem;
+
+}
+.education h1{
+    font-size: 2.9rem;
+    text-align: center;
+    padding-top:3rem;
+    font-family: Lucida Console;
+}
+.education p {
+    text-align: center;
+    padding-bottom:4rem;
+    padding-top: 1rem;
+    
+    font-family: Lucida Handwriting;
+}
+.edu-name {
+    border: 1px solid rgb(255, 168, 168);
+    width: 56rem;
+    height: 10rem;
+    margin:auto;
+    box-shadow:1px 1px 5px rgb(247, 163, 163);
+}
+.edu-name img{
+    float:left;
+    width: 20rem;
+    height:10rem ;
+}
+.edu-name h1{
+    float: left;
+    margin-left:2rem;
+    margin-top: 1.7rem;
+    font-size:1.7rem;
+    display: block;
+}
+.edu-name p1{
+     float: left;
+    margin-top:0.5rem ;
+    margin-left: 2rem;
+    display: block;
+}
+.edu-name p2{
+    margin-left:-15rem;
+    margin-top: 2.7rem;
+    float: left;
+}
+
+.edu-scahool {
+    border: 1px solid rgb(255, 168, 168);
+    width: 56rem;
+    height: 10rem;
+    margin:auto;
+    margin-top:5rem;
+    box-shadow:1px 1px 5px rgb(247, 163, 163);
+}
+.edu-scahool img{
+    float:left;
+    width: 20rem;
+    height:10rem ;
+}
+.edu-scahool h1{
+    float: left;
+    margin-left:2rem;
+    margin-top: 1rem;
+    font-size:1.7rem;
+    display: block;
+}
+.edu-scahool p1{
+     float: left;
+    margin-top:3.8rem ;
+    margin-left:-12rem;
+    display: block;
+}
+.edu-scahool p2{
+    margin-left:-14.7rem;
+    margin-top:5rem;
+    float: left;
+}
+/* -----------------------------end of eduaction page (section 3)---------------------------- */
+
+/* -----------------------------skill page --------------------------------------*/
+.skill{
+    background-color:rgb(211, 211, 211);
+    height:42rem;
+}
+.skill h1{
+    text-align: center;
+    padding-top:1rem;
+    font-size:3.5rem;
+}
+.skill-box{
+    width:68rem;
+    height:30rem;
+    background-color: #C8DEF3;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    box-shadow: 0px 2px 3px grey;
+}
+
+.firtsul {
+    margin: 1rem 3.5rem;
+}
+.firtsul li {
+    display: inline-block;
+    margin:3rem 3rem;
+    width:9rem;
+    height:2rem;
+}
+
+.firtsul li img{
+    width:5rem;
+    height:6rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.firtsul li p{
+    text-align: center;
+    padding-top: 0.8rem;
+
+}
+
+.secondul {
+    margin: 1rem 3.5rem;
+}
+.secondul li {
+    display: inline-block;
+    margin:4rem 3rem;
+    width:9rem ;
+    height:2rem;
+}
+
+.secondul li img{
+    width:5rem;
+    height:6rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.secondul li p{
+    text-align: center;
+    padding-top: 0.8rem;
+
+}
+
+.skill-box .c{
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+.skill-box .python{
+    
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+.skill-box .html{
+    
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+.skill-box .css{
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+.skill-box .mysql{
+    
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+.skill-box .cplus{
+    
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+
+.skill-box .javascript{
+    
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+
+
+.skill-box .wordpress{
+    
+    border: 0.2px solid black;
+    height: 10rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 5px;
+}
+
+/* ----------------------------- End skill page --------------------------------------*/
+
+/* --------------------in section 4 the contact us form s builesd-------------------------- */
+
+.contact-us{
+    background-color:#caebf2;
+    padding-bottom:3rem;
+    padding-top: 3rem;
+
+}
+.box{
+    margin-left:17rem;
+    padding-top: 2rem;
+    background-color: white;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 1rem;
+    height: 550px;
+    width: 50rem;
+    text-align: center;
+}
+.item{
+    padding-top:0.3;
+}
+.item h1{
+    font-size:50px;
+    padding: 9px 0px;
+}
+.item p1{
+    font-size:15px;
+    
+}
+.item p {
+    padding: 14px 0px;
+    padding-top: 10px;
+}
+.item p input{
+    width: 400px;
+    height:30px;
+    outline: none;
+    border:1px solid grey;
+    border-radius:2rem ;
+}
+.item textarea{
+    outline: none;
+    
+    border:1px solid grey;
+    border-radius:0.8rem ;
+}
+
+/* -------------------------------------end of contact us page ---------------------------- */
+
+/* -------------------------------fotter fotter fotter-------------------------------------------- */
+
+.fotter {
+    height: 4rem;
+    background-color: grey;
+    padding-top: 3rem;
+}
+.fotter p{
+    text-align: center;
+    padding-top:1.5rem;
+    color: white;
+}
+
+/* -------------------------------------end of fotter ---------------------------------- */
+
+
+
+             
+                    /*             Media query for max 600px width                 */
+
+
+
+
+
+@media  only screen and (max-width:600px)  {
+
+    
+/*------------------------- section 1  ,nav bar .welcome text ,photo------------------------*/
+
+.first{
+    height:42rem;
+}
+/* ---------------------------------logo of my name---------------------------------- */
+
+
+.logo{
+    padding-top:1rem;
+    padding-left:2rem;
+    
+}
+.logo h1 {
+    font-size:2rem;
+}
+
+/* ------------------------------------End of logo-----------------------------------------*/
+
+/*--------------------------------------- nav bar--------------------------------- */
+.nav-bar{
+    
+    float: right;
+    padding-top:0.5rem;
+    padding-right: 0.9rem;
+}
+.nav-bar nav ul li {
+    display:block;
+}
+.nav-bar nav ul {
+    display: none;
+}
+.btn{
+    display: block;
+    text-align: right;
+}
+
+/*--------------------------------------end of nav bar ------------------------------------- */
+
+/* ----------content of (hi there i am vinod sharma), about btn, social miadia link --------*/
+
+.content{
+    float:none;
+    text-align: center;
+    display: block;
+    padding:1rem;
+}
+.content p {
+    padding: 1rem 0rem;
+    font-size:2.6rem;
+}
+.content ul li {
+    height: 20px;
+    width: 2rem;
+}
+.social-links{
+    margin-top:2rem;
+    margin-left:0rem;
+}
+.social-links a{
+    font-size:3px;
+    margin:0.2rem;
+    border: 0.6rem solid black;
+    border-radius: 5rem;
+}
+.social-links a i {
+    font-size:0.5rem;
+}
+/* ---------------------------------end of content-------------------------------- */
+
+/*-------------------------- iamge of my carton photo------------------------------- */
+
+.image{
+    float: none;
+    text-align: center;
+    margin: 0rem;
+    padding-top: 1rem;
+}
+.image img {
+   height:15rem;
+   width:16rem;
+}
+
+/* -------------------------------------end of carton image-------------------------------- */
+
+/* ------------------------------------section 1 end-----------------------------------------*/
+
+/* -------------------second section in this section about me page is desian-------------- */
+
+.second{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.about-us {
+    text-align: center;
+    padding: 1rem 0;
+    font-size:1.7rem;
+    margin: auto;
+
+}
+.about-us h1{
+    margin-top: 0.5rem;
+    padding-bottom:1rem;
+}
+
+.para{
+    text-align: center;
+    width:17rem;
+    height: 30rem;
+    margin: auto;
+}
+
+.para p1{
+    text-align: center;
+    font-size:1.4rem;
+    margin-top: 2rem;
+}
+
+.para p2{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.para p3{
+    font-size: 1rem;
+    padding: 6px 4px;
+    margin:0rem ;
+}
+
+/* -------------------------------------end----------------------------------------------- */
+
+/* ---------------------------------end of second page------------------------------------ */
+
+/*--------------------------section 3 is on based on eduaction page------------------------ */
+
+.third{
+    padding-bottom: 3rem;
+
+}
+.education h1{
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top:3rem;
+}
+.education p {
+    padding-bottom:3rem;
+    padding-top: 1rem;
+    font-size: 0.6rem;
+}
+.edu-name {
+    width:18rem;
+    height: 23rem;
+    margin:auto;
+}
+
+.edu-name img{
+    width:18rem;
+    height:10rem ;
+}
+
+.edu-scahool {
+    width:18rem;
+    height: 20rem;
+    margin:auto;
+    margin-top:5rem;
+}
+
+.edu-scahool img{
+    width:18rem;
+    height:10rem ;
+}
+/* -----------------------------end of eduaction page (section 3)---------------------------- */
+
+
+/* -----------------------------skill page --------------------------------------*/
+.skill{
+    height:42rem;
+}
+.skill h1{
+    text-align: center;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    font-size:2rem;
+}
+.skill-box{
+    width:18rem;
+    height:32rem;
+    margin: auto;
+}
+
+.firtsul {
+    margin:auto;
+    padding-top: 0.5rem;
+    padding-left:1rem;
+    
+}
+.firtsul li {
+    display: inline-block;
+    margin:auto;
+    margin-left: 1.4rem;
+    margin-top: 1.6rem;
+    width:6rem;
+    height:2rem;
+}
+
+.firtsul li img{
+    width:2rem;
+    height:3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.firtsul li p{
+    text-align: center;
+    padding-top: 0.1rem;
+
+}
+
+.secondul {
+    margin:auto;
+    padding-top: 0.5rem;
+    padding-left:1rem;
+    
+}
+.secondul li {
+    display: inline-block;
+    margin:auto;
+    margin-left: 1.4rem;
+    margin-top: 1.6rem;
+    width:6rem;
+    height:2rem;
+}
+
+.secondul li img{
+    width:2rem;
+    height:3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.secondul li p{
+    text-align: center;
+    padding-top: 0.1rem;
+
+}
+
+
+.skill-box .c{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .python{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .html{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .css{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .mysql{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .cplus{
+    border: 1px solid black;
+    height:6rem;
+}
+
+.skill-box .javascript{
+    border: 1px solid black;
+    height:6rem;
+}
+
+
+.skill-box .wordpress{
+    border: 1px solid black;
+    height:6rem;
+}
+
+/* ----------------------------- End skill page --------------------------------------*/
+
+/* --------------------in section 4 the contact us form s builesd-------------------------- */
+
+.contact-us{
+    text-align:center;
+    margin: auto;
+
+}
+.box{
+    margin: auto;
+    height: 500px;
+    width:18rem;
+}
+.item{
+    padding-top:0.3;
+    margin: auto;
+}
+.item h1{
+    font-size:30px;
+    padding: 9px 0px;
+    margin: auto;
+}
+.item p1{
+    font-size:12px;
+    
+}
+.item p {
+    padding: 14px 0px;
+    padding-top: 10px;;
+}
+.item p input{
+    width: 200px;
+    height:25px;
+}
+
+.item textarea{
+    width: 200px;
+    height:100px;
+}
+/* -------------------------------------end of contact us page ---------------------------- */
+}
+
+
+
+
+@media  only screen and (max-width:1096px) and (min-width:600px) {
+    
+/*------------------------- section 1  ,nav bar .welcome text ,photo------------------------*/
+
+.first{
+    height:33rem;
+}
+
+/* ---------------------------------logo of my name---------------------------------- */
+
+    /* ----------content of (hi there i am vinod sharma), about btn, social miadia link --------*/
+
+.content{
+    padding-top: 4rem;
+    padding-left:4rem;
+}
+.content p {
+    padding: 1rem 0rem;
+    font-size:2.4rem;
+}
+.content ul {
+    margin-top:0.7rem;
+    margin-left: 1rem;
+}
+.content ul li {
+    height: 1.4rem;
+    width: 6rem;
+    border: 1rem solid blue;
+    box-shadow: 1px 2px 14px rgb(125, 125, 252);
+    border-radius:2rem ;
+    display: inline;
+    text-shadow: 9rem green;
+}
+.content ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+.social-links{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.social-links a{
+    font-size: 1rem;
+    margin:0.2rem;
+    border: 0.9rem solid black;
+    background-color: black;
+    border-radius: 5rem;
+    color:#038aa6;
+    
+    box-shadow: 1px 1px 8px black;
+}
+.social-links a i {
+    font-size:1.3rem;
+}
+/*-------------------------- iamge of my carton photo------------------------------- */
+
+.image{
+    margin: 0rem;
+    padding-right:3rem;
+    padding-top:6rem;
+}
+.image img {
+   height:10rem;
+   width:12rem;
+}
+
+/* -------------------------------------end of carton image-------------------------------- */
+
+/* -------------------second section in this section about me page is desian-------------- */
+
+.second{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.about-us {
+    text-align: center;
+    padding: 1rem 0;
+    font-size:1.7rem;
+    margin: auto;
+
+}
+.about-us h1{
+    margin-top: 0.5rem;
+    padding-bottom:1rem;
+}
+
+.para{
+    text-align: center;
+    width:35rem;
+    height: 30rem;
+    margin: auto;
+}
+
+.para p1{
+    text-align: center;
+    font-size:1.4rem;
+    margin-top: 2rem;
+}
+
+.para p2{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.para p3{
+    font-size: 1rem;
+    padding: 6px 8px;
+    margin:0rem ;
+}
+
+/* -------------------------------------end----------------------------------------------- */
+
+/* ---------------------------------end of second page------------------------------------ */
+
+/*--------------------------section 3 is on based on eduaction page------------------------ */
+
+.third{
+    padding-bottom: 3rem;
+
+}
+.education h1{
+    font-size: 2.6rem;
+    text-align: center;
+    padding-top:3rem;
+}
+.education p {
+    padding-bottom:3rem;
+    padding-top: 1rem;
+    font-size: 0.6rem;
+}
+.edu-name {
+    width:27rem;
+    height: 23rem;
+    margin:auto;
+}
+
+.edu-name img{
+    width:27rem;
+    height:10rem ;
+}
+
+.edu-scahool {
+    width:27rem;
+    height: 20rem;
+    margin:auto;
+    margin-top:5rem;
+}
+
+.edu-scahool img{
+    width:27rem;
+    height:10rem ;
+}
+/* -----------------------------end of eduaction page (section 3)---------------------------- */
+
+
+/* -----------------------------skill page --------------------------------------*/
+.skill{
+    height:35rem;
+}
+.skill h1{
+    text-align: center;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    font-size:2rem;
+}
+.skill-box{
+    width:36rem;
+    height:28rem;
+    margin: auto;
+}
+
+.firtsul {
+    margin:auto;
+    padding-top: 0.9rem;
+    padding-left:1rem;
+    
+}
+.firtsul li {
+    display: inline-block;
+    margin:auto;
+    margin-left:2rem;
+    margin-top: 4rem;
+    width:6rem;
+    height:2rem;
+}
+
+.firtsul li img{
+    width:2rem;
+    height:3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.firtsul li p{
+    text-align: center;
+    padding-top: 0.1rem;
+
+}
+
+.secondul {
+    margin:auto;
+    padding-top: 0.5rem;
+    padding-left:1rem;
+    
+}
+.secondul li {
+    display: inline-block;
+    margin:auto;
+    margin-left:2rem;
+    margin-top: 6rem;
+    width:6rem;
+    height:2rem;
+}
+
+.secondul li img{
+    width:2rem;
+    height:3rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.secondul li p{
+    text-align: center;
+    padding-top: 0.1rem;
+
+}
+
+
+.skill-box .c{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .python{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .html{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .css{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .mysql{
+    border: 1px solid black;
+    height:6rem;
+}
+.skill-box .cplus{
+    border: 1px solid black;
+    height:6rem;
+}
+
+.skill-box .javascript{
+    border: 1px solid black;
+    height:6rem;
+}
+
+
+.skill-box .wordpress{
+    border: 1px solid black;
+    height:6rem;
+}
+
+/* ----------------------------- End skill page --------------------------------------*/
+
+/* --------------------in section 4 the contact us form s builesd-------------------------- */
+
+.contact-us{
+    text-align:center;
+    margin: auto;
+
+}
+.box{
+    margin: auto;
+    height: 500px;
+    width:27rem;
+}
+.item{
+    padding-top:0.3;
+    margin: auto;
+}
+.item h1{
+    font-size:30px;
+    padding: 9px 0px;
+    margin: auto;
+}
+.item p1{
+    font-size:12px;
+    
+}
+.item p {
+    padding: 14px 0px;
+    padding-top: 10px;;
+}
+.item p input{
+    width: 250px;
+    height:25px;
+}
+
+.item textarea{
+    width: 250px;
+    height:100px;
+}
+/* -------------------------------------end of contact us page ---------------------------- */
+}
+@media  only screen and (max-width:764px) and (min-width:600px) {
+
+    
+/* ---------------------------------logo of my name---------------------------------- */
+
+
+.logo{
+    padding-top:1rem;
+    padding-left:1.5rem;
+    
+}
+.logo h1 {
+    font-size:2rem;
+}
+
+/* ------------------------------------End of logo-----------------------------------------*/
+/* ------------------------------nav bar --------------------------------------*/
+.nav-bar nav ul li a {
+    font-size:0.6rem;
+}
+/* ------------------------------ end nav bar --------------------------------------*/
+  /* ----------content of (hi there i am vinod sharma), about btn, social miadia link --------*/
+
+  .content{
+    padding-top: 4rem;
+    padding-left:3rem;
+}
+.content p {
+    padding: 1rem 0rem;
+    font-size:2.1rem;
+}
+.content ul {
+    margin-top:0.7rem;
+    margin-left: 1rem;
+}
+.content ul li {
+    height: 1.4rem;
+    width: 6rem;
+    border: 1rem solid blue;
+    box-shadow: 1px 2px 14px rgb(125, 125, 252);
+    border-radius:2rem ;
+    display: inline;
+    text-shadow: 9rem green;
+}
+.content ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+.social-links{
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+.social-links a{
+    font-size: 1rem;
+    margin:0.2rem;
+    border-radius: 5rem;
+}
+.social-links a i {
+    font-size:0.9rem;
+}
+/*-------------------------- iamge of my carton photo------------------------------- */
+
+.image{
+    margin: 0rem;
+    padding-right:2rem;
+    padding-top:6rem;
+}
+.image img {
+   height:9rem;
+   width:10rem;
+}
+
+/* -------------------------------------end of carton image-------------------------------- */
+
+
+}
