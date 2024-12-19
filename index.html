@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="first">
+        <div class="header">
+            <div class="logo" >
+                <h1>VINOD</h1>
+            </div>
+            <div class="nav-bar">
+                <nav>
+                    <span class="btn" onclick="myfuction()">&#9776;</span>
+                        <ul id="menu">
+                           <li ><a style="color:blue;
+                            border-bottom:2.8px solid blue;
+                            border-radius:0.2rem" href="">HOME</a></li>
+                           <li><a href="#about">ABOUT ME</a></li>
+                           <li><a href="#education">EDUCATION</a></li>
+                           <li><a href="#skill">SKILLS</a></li>
+                           <li><a href="#contact">CONTACT</a></li>
+                           
+                        </ul>
+                    </nav>
+            </div>
+            </div>
+                <div class="content">
+                    <p>Hi There,<br>I'm <span class="color" style="color:blue"> Vinod sharma </span></p>
+                    <ul>
+                        <li><a href="#about">ABOUT  ME</a></li>
+                    </ul>
+                    <div class = "social-links">
+                       <a href = "#"><i class = "fab fa-telegram"></i></a>
+                       <a href = "#"><i class = "fab fa-twitter"></i></a>
+                       <a href = "#"><i class = "fab fa-instagram"></i></a>
+                       <a href = "#"><i class = "fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="image/vinod.jpg">
+                </div>
+        </div>
+    </section>
+    <section class="second">
+        <div class="section2">
+            <div class="about-us" id="about">
+                <h1>About Me</h1>
+               <div class="para">
+                <br><p1>I'm Vinod sharma </p1> <br>
+                <p2>Full Stack Developer</p2> <br><br>
+                <p3>I am a Full-Stack developer based in Punjab,India. I am a Bachelor of Computer applications undergraduate from Lyallpur Khalsa College. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.</p3>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="third">
+       <div class="education" id="education">
+        <h1> My Education</h1>
+        <p>Education Is Not The Learning Of Facts, <br> But The Training Of The Mind To Think.</p>
+       </div>
+       <div class="edu-name">
+        <img src="image/collage.jpg">
+        <h1>Bachelor of Computer Applications</h1>
+        <p1>Guru Nanak Dev University| Amritsar</p1>
+        <p2>2021-2024| Pursuing</p2>
+
+       </div>
+       <div class="edu-scahool">
+        <img src="image/dav.jpg">
+        <h1>HSC Humanities</h1>
+        <p1>Polic DAV Public School |Jalandhar</p1><br>
+        <p2>2019-2020</p2>
+    </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h1>Skill</h1>
+        <div class="skill-box">
+            <ul class="firtsul"> 
+                <li>
+                    <div class="c">
+                        <img src="image/c-language.png">
+                        <p>C Language</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="python">
+                        <img src="image/python.png">
+                        <p>Python</p>
+                    </div>
+                </li>
+            <li><div class="html">
+                <img src="image/HTML5.png">
+                <p>HTML</p>
+            </div></li>
+            <li><div class="css">
+                <img src="image/css.png">
+                <p>CSS</p>
+            </div></li>
+            </ul>
+            <ul class="secondul">
+            <li> <div class="mysql">
+                <img src="image/mysql.png">
+                <p>MySQL</p>
+            </div></li>
+            <li> <div class="cplus">
+                <img src="image/C++.png">
+                <p>C++</p>
+            </div></li>
+            <li><div class="javascript">
+                <img src="image/javascript.png">
+                <p>Javascript</p>
+            </div></li>
+            <li> <div class="wordpress">
+                <img src="image/wordpress.png">
+                <p>Wordpress</p>
+            </div></li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact-us" id="contact" >
+        <div class="box" >
+            <div class="item">
+                <form>
+                     <h1>CONTACT US</h1>
+                     <p1>Got a question? we`d love to here from you. send usmessage  and well <br> respond as possible</p1>
+                     <p>Name <br><input type="text" name="username" required ></p>
+                     <p>Email Address <br><input type="email" name="email" required></p>
+                     <p>Message <br><textarea name="message" cols="55" rows="10" name="message" required></textarea></p>
+                     <p><input type="button" value="send message" name="button" required></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="fotter">
+        <p>Designed With By Vinod Sharma</p>
+    </section>
+    
+    <script>
+       function myfuction(){
+        var x=document.getElementById("menu");
+        if (x.style.display == "block"){
+            x.style.display = "none";
+        }
+        else{
+            x.style.display = "block"
+        }
+
+       }
+    </script>
+
+
+</body>
+</html>
+
